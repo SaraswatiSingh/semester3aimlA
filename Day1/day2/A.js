@@ -76,4 +76,39 @@ console.log("\n=====local variable=====");
 console.log("\n=====while loop=====");
 
 
-onsole.log("\n=====Do while loop=====");
+console.log("\n=====Do while loop=====");
+
+    let student={
+    studentid:2345,
+    name:"Saraswati singh",
+    section:"A",
+ }
+ console.log(student);
+  
+var total= totalMarks(95,98,92);
+console.log("Total Marks =" ,total);
+console.log("percentage =",percentage(total) +"%")
+
+
+
+  let arr=[1,2,3]; 
+  var sum=0;
+  for(let i=0; arr.length; i++){
+    sum+=arr[i];}
+    console.log("sum of array",sum);
+
+    let list=[
+        ["saraswati","aiml","btech"],
+        ["saraswati","aiml","btech"],
+  ];
+  console.log(list);
+  let studentt={
+    name:"saraswati",
+    id:45,
+    branch:"aiml"
+  }
+
+console.log(studentt);
+console.log(studentt.name);
+   
+  
